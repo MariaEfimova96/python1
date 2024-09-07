@@ -55,7 +55,6 @@
 Fizz Buzz. Если число не кратно не 3 и 5 нужно вывести само число.'''
 # number1= int(input("Введите первое число: "))
 # number2= int(input("Введите второе число: "))
-# for i in range(number1, number2 + 1):
 #     if i %3==0 and i %5==0:
 #         print('Fizz Buzz', end=",")
 #     elif i%3==0:
@@ -64,3 +63,11 @@ Fizz Buzz. Если число не кратно не 3 и 5 нужно выве
 #         print('Buzz', end=",")
 #     else:
 #         print(i, end=",")
+
+# x=int(input('Введите число x '))
+# y=int(input('Введите число y '))
+# z=int(input('Введите число z '))
+# if x==5 or y==4 and z==3:
+#     print("True")
+# else:
+#     print("False")
