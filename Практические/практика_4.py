@@ -46,3 +46,29 @@
 #         if i % 2 == 1:
 #             print(i, end=" ")
 # Вопрос к заданию 5 - почему когда пытылась в строку 44 вставляешь конструкцию elif отобрвжвется ошибка синтаксиса?
+print('Введите два числа (начало и конец диапазона): ')
+a = int(input('начало диапазона = '))
+b = int(input('конец диапазона = '))
+print()
+if a == b:
+    raise RuntimeError('Числа не могут быть одинаковыми')
+# 3
+for i in range(a, b):
+    if i % 3 == 0:
+        i = 'Fizz'
+        print(i, end=' ')
+print()
+for i in range(a, b):
+    if i % 5 == 0:
+        i = 'Buzz'
+        print(i, end=' ')
+print()
+for i in range(a, b):
+    if i % 3 == 0 and i % 5 == 0:
+        i = 'Fizz Buzz'
+        print(i, end=' ')
+print()
+for i in range(a, b):
+    if i % 3 != 0 and i % 5 != 0:
+        print(i, end=' ')
+print()
